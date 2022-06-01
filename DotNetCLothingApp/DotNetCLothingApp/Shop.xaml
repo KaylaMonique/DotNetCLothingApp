@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DotNetCLothingApp.Shop" Title="Shop" IconImageSource="shop.png">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+          
+            <Button x:Name="MenButton" Text="Men" Margin="5" Clicked="MenButton_Clicked"/>
+
+            <Button x:Name="WomanButton" Text="Woman" Margin="5" Clicked="WomanButton_Clicked"/>
+
+            <Button x:Name="ShoeButton" Text="Shoes" Margin="5" Clicked="ShoeButton_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
