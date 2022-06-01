@@ -4,13 +4,11 @@
              x:Class="DotNetCLothingApp.Shop" Title="Shop" IconImageSource="shop.png">
 
     <ContentPage.Content>
-        <StackLayout Padding="20">
+        <StackLayout Padding="0">
           
             <Button x:Name="MenButton" Text="Men" Margin="5" Clicked="MenButton_Clicked"/>
-
+            <Image Source="dotnetlogo.png"/>
             <Button x:Name="WomanButton" Text="Woman" Margin="5" Clicked="WomanButton_Clicked"/>
-
-            <Button x:Name="ShoeButton" Text="Shoes" Margin="5" Clicked="ShoeButton_Clicked"/>
             
         </StackLayout>
     </ContentPage.Content>

@@ -18,10 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Bag.xaml">
+    <EmbeddedResource Update="Apparel.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MensApparel.xaml">
+    <EmbeddedResource Update="Bag.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Profile.xaml">

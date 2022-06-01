@@ -10,11 +10,18 @@ using Xamarin.Forms.Xaml;
 namespace DotNetCLothingApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MensApparel : ContentPage
+    public partial class Apparel : ContentPage
     {
-        public MensApparel()
+        public Apparel()
         {
             InitializeComponent();
         }
+
+        ScrollView scrollView = new ScrollView
+        {
+            VerticalOptions = LayoutOptions.FillAndExpand,
+            Margin = new Thickness(10),
+            Content = new Label
+        };
     }
 }

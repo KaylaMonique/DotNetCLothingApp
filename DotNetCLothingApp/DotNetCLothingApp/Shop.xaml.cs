@@ -17,38 +17,18 @@ namespace DotNetCLothingApp
             InitializeComponent();
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new MensApparel());
-        }
-
-        private async void TshirtButton_Clicked(object sender, EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
 
         }
-
-        private  void PantsButton_Clicked(object sender, EventArgs e)
+        private async void MenButton_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new Apparel());
 
         }
-
-        private void ShoeButton_Clicked(object sender, EventArgs e)
+        private async void WomanButton_Clicked(object sender, EventArgs e)
         {
-
-        }
-
-        private void MenButton_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void WomanButton_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ShoeButton_Clicked_1(object sender, EventArgs e)
-        {
+            await Navigation.PushAsync(new Apparel());
 
         }
     }
