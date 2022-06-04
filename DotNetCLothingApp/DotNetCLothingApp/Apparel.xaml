@@ -3,45 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DotNetCLothingApp.Apparel">
     <ContentPage.Content>
-
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
-            
-            <StackLayout>
-                <ScrollView HorizontalOptions="StartAndExpand"/>
-                <ImageButton Source="tee"/>
-                <ImageButton Source="tee1"/>
-                <ImageButton Source="tee2"/>
-
-                <ImageButton Source="pants1"/>
-                <ImageButton Source="pants2"/>
-                <ImageButton Source="pants3"/>
-                
-                <ImageButton Source="shoe1"/>
-                <ImageButton Source="shoe2"/>
-                <ImageButton Source="shoe3"/>
-            
-            </StackLayout>
-            
-        </Grid>
-
+            <ListView ItemsSource="{Binding Items}" SelectionMode="None" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="5" Orientation="Vertical" HorizontalOptions="Center">
+                                <Image Source="{Binding ImagePath}"/>
+                                <Label Text="{Binding ItemID}"/>
+                                <Label Text="{Binding ItemName}"/>
+                                <Label Text="{Binding ItemPrice}"/>
+                                <Label Text="{Binding OrderDate}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>           
     </ContentPage.Content>
 </ContentPage>

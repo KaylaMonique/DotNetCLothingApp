@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCLothingApp.Android",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCLothingApp.iOS", "DotNetCLothingApp\DotNetCLothingApp.iOS\DotNetCLothingApp.iOS.csproj", "{F007F779-BDC9-4031-92B2-2CBBA8BC5AB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCLothingApp", "DotNetCLothingApp\DotNetCLothingApp\DotNetCLothingApp.csproj", "{E0DAD89B-9019-4E88-9603-D04D59C759B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCLothingApp", "DotNetCLothingApp\DotNetCLothingApp\DotNetCLothingApp.csproj", "{E0DAD89B-9019-4E88-9603-D04D59C759B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

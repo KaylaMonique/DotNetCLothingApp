@@ -7,7 +7,6 @@
         <StackLayout Padding="0">
           
             <Button x:Name="MenButton" Text="Men" Margin="5" Clicked="MenButton_Clicked"/>
-            <Image Source="dotnetlogo.png"/>
             <Button x:Name="WomanButton" Text="Woman" Margin="5" Clicked="WomanButton_Clicked"/>
             
         </StackLayout>

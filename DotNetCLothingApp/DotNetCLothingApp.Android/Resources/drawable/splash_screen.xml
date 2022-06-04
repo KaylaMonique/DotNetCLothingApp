@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <color android:color="@color/splash_background"/>
+  </item>
+  <item>
+    <bitmap
+        android:src="@drawable/dotnetlogo"
+        android:tileMode="disabled"
+        android:gravity="center"/>
+  </item>
+</layer-list>
+<!-- Bitmap is a picture
+Gravity is position of image
+png is the logo that will appear
+tileMode = a tile effect-->
